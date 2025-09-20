@@ -8,9 +8,9 @@ def is_pangram(sentence, letters):
     new_sent = []
     found = False
     sentence = list(dict.fromkeys(sentence))
-    new_let = list(x.lower() for x in letters) #could be simplified to [x.lower() for x in letters] or even done earlier when processing the input.
+    new_let = list(x.lower() for x in letters)
     for x in sentence:
-        if not x == " " and x.isalpha(): #only checking of x.isalpha() would be snough here
+        if not x == " " and x.isalpha(): 
                 new_sent.append(x.lower())
             
     if set(new_let) == set(new_sent):
@@ -26,5 +26,6 @@ is_pangram("Hello World!", "helowrd") #should return True
 is_pangram("Hello World!", "heliowrd") #should return False
 is_pangram("freeCodeCamp", "frcdmp") #should return False
 is_pangram("The quick brown fox jumps over the lazy dog.", "abcdefghijklmnopqrstuvwxyz") #should return True
+
 
 

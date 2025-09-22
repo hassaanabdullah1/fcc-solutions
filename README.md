@@ -30,17 +30,7 @@ daily-python-challenges/
 └── progress.md                          # Challenge tracker
 ```
 
-## 📅 Challenge Log
-
-| Date | Challenge | Status | Key Learnings |
-|------|-----------|--------|---------------|
-| Sep 3, 2025 | **Pangram Checker** | ✅ Complete | Set operations for efficient character checking |
-| Sep 5, 2025 | **IPv4 Validator** | ✅ Complete | String parsing, regex alternatives, edge case handling |
-| Sep 7, 2025 | **Roman Numeral Parser** | ✅ Complete | Dictionary mapping, subtractive notation logic |
-| Sep 8, 2025 | **Acronym Maker** | ✅ Complete | String splitting, title case handling |
-| Sep 12, 2025 | **Daily Algorithm** | ✅ Complete 
-| Sep 13, 2025 | **Daily Algorithm** | ✅ Complete 
-| Sep 19, 2025 | **Daily Algorithm** | ✅ Complete 
+###The Challenges may not be solved in order!
 
 *Total challenges completed: 7 | 
 
@@ -114,7 +104,5 @@ print(f"{is_valid_ipv4("192168145213")}") #should return False.
 MIT License - feel free to use, modify, and share these solutions.
 
 ---
-
-*Daily coding, one challenge at a time. Updated: September 19, 2025*
 
 *Made with Python 🐍  *

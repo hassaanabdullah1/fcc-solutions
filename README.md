@@ -30,9 +30,8 @@ daily-python-challenges/
 └── progress.md                          # Challenge tracker
 ```
 
-###The Challenges may not be solved in order!
+## The Challenges may not be solved in order!
 
-*Total challenges completed: 7 | 
 
 ## 💻 Example Solutions
 
